@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/first-child/first-child.iml" filepath="$PROJECT_DIR$/first-child/first-child.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-module.iml" filepath="$PROJECT_DIR$/multi-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/second-child/second-child.iml" filepath="$PROJECT_DIR$/second-child/second-child.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-artifact/test-artifact.iml" filepath="$PROJECT_DIR$/test-artifact/test-artifact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/third-child/third-child.iml" filepath="$PROJECT_DIR$/third-child/third-child.iml" />
+    </modules>
+  </component>
+</project>

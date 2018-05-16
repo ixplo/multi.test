@@ -1,6 +1,7 @@
 package multi.test;
 
 import multi.test.config.FirstConfig;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,5 +19,9 @@ public class FirstTest {//extends BaseTest {
     public void contextTest() throws Exception {
         dimmer.setName("first dimmer");
         System.out.println(dimmer.getName());
+        Object load = ClassLoading.load();
+        Object get = ClassLoading.get();
+
+        Assert.assertEquals(load, get);
     }
 }

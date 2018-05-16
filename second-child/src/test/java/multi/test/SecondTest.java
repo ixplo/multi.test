@@ -15,7 +15,8 @@ public class SecondTest {//extends BaseTest {
     private HighBeam highBeam;
 
     @Test
-    public void secondTest() {
+    public void secondTest() throws Exception{
         System.out.println(highBeam.getName());
+        Object lumen = ClassLoading.get();
     }
 }
